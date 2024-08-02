@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{DC747802-F751-468E-9945-30E8D3B40D85}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>school</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.22000.0\ucrt;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.22000.0\ucrt_enclave\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\Connector C++ 8.0\include;C:\Program Files\MySQL\MySQL Server 8.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\Connector C++ 8.0\lib64;C:\Program Files\MySQL\MySQL Server 8.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddStaff.cpp" />
+    <ClCompile Include="AddStaffcon.cpp" />
+    <ClCompile Include="AddStudent.cpp" />
+    <ClCompile Include="ADDStudentcon.cpp" />
+    <ClCompile Include="AddTeacher.cpp" />
+    <ClCompile Include="AddTechcon.cpp" />
+    <ClCompile Include="Helpsetting.cpp" />
+    <ClCompile Include="History.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="PasswordSet.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="StaffManagement.cpp" />
+    <ClCompile Include="StaMenu.cpp" />
+    <ClCompile Include="StdMenu.cpp" />
+    <ClCompile Include="StudentManagement.cpp" />
+    <ClCompile Include="StudentReciept.cpp" />
+    <ClCompile Include="StudentSetting.cpp" />
+    <ClCompile Include="StuProfile.cpp" />
+    <ClCompile Include="StuSchool.cpp" />
+    <ClCompile Include="TeacherManagement.cpp" />
+    <ClCompile Include="TermCon.cpp" />
+    <ClCompile Include="ThdMenu.cpp" />
+    <ClCompile Include="UserStaff.cpp" />
+    <ClCompile Include="UserStudent.cpp" />
+    <ClCompile Include="UserTeacher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddStaffcon.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ADDStudentcon.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddTechcon.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Helpsetting.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PasswordSet.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Setting.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StaffManagement.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StaMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StdMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentManagement.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentReciept.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StudentSetting.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StuProfile.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StuSchool.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeacherManagement.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TermCon.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ThdMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserStaff.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddStaff.resx">
+      <DependentUpon>AddStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStaffcon.resx">
+      <DependentUpon>AddStaffcon.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent.resx">
+      <DependentUpon>AddStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADDStudentcon.resx">
+      <DependentUpon>ADDStudentcon.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTeacher.resx">
+      <DependentUpon>AddTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTechcon.resx">
+      <DependentUpon>AddTechcon.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpsetting.resx">
+      <DependentUpon>Helpsetting.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordSet.resx">
+      <DependentUpon>PasswordSet.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffManagement.resx">
+      <DependentUpon>StaffManagement.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaMenu.resx">
+      <DependentUpon>StaMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdMenu.resx">
+      <DependentUpon>StdMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManagement.resx">
+      <DependentUpon>StudentManagement.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentReciept.resx">
+      <DependentUpon>StudentReciept.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentSetting.resx">
+      <DependentUpon>StudentSetting.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuProfile.resx">
+      <DependentUpon>StuProfile.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuSchool.resx">
+      <DependentUpon>StuSchool.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherManagement.resx">
+      <DependentUpon>TeacherManagement.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermCon.resx">
+      <DependentUpon>TermCon.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThdMenu.resx">
+      <DependentUpon>ThdMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserStaff.resx">
+      <DependentUpon>UserStaff.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserStudent.resx">
+      <DependentUpon>UserStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserTeacher.resx">
+      <DependentUpon>UserTeacher.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="school.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\doubl\Downloads\SBS.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

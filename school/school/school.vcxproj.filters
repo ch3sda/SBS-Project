@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Student">
+      <UniqueIdentifier>{e53b4276-5be5-4b9c-9f02-04efdd435d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Teacher">
+      <UniqueIdentifier>{39e15cd6-5937-42cb-8663-5c637d2b3069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Staff">
+      <UniqueIdentifier>{1ca1c204-6515-4817-af0c-37d219df99c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{c012eda8-3d83-414b-b6f4-935dfcdfeb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multi User">
+      <UniqueIdentifier>{8f25bab3-9586-4a52-89cb-5acdd2e694d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multi User\StudentAccount">
+      <UniqueIdentifier>{dd5946c5-4900-448d-a123-970ea241d474}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThdMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddStudent.cpp">
+      <Filter>Student</Filter>
+    </ClCompile>
+    <ClCompile Include="ADDStudentcon.cpp">
+      <Filter>Student</Filter>
+    </ClCompile>
+    <ClCompile Include="TermCon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentManagement.cpp">
+      <Filter>Student</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTeacher.cpp">
+      <Filter>Teacher</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTechcon.cpp">
+      <Filter>Teacher</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherManagement.cpp">
+      <Filter>Teacher</Filter>
+    </ClCompile>
+    <ClCompile Include="AddStaff.cpp">
+      <Filter>Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="AddStaffcon.cpp">
+      <Filter>Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="StaffManagement.cpp">
+      <Filter>Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpsetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentReciept.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTeacher.cpp">
+      <Filter>Multi User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStaff.cpp">
+      <Filter>Multi User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStudent.cpp">
+      <Filter>Multi User</Filter>
+    </ClCompile>
+    <ClCompile Include="StuProfile.cpp">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentSetting.cpp">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordSet.cpp">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="StuSchool.cpp">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThdMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddStudent.h">
+      <Filter>Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ADDStudentcon.h">
+      <Filter>Student</Filter>
+    </ClInclude>
+    <ClInclude Include="TermCon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentManagement.h">
+      <Filter>Student</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTeacher.h">
+      <Filter>Teacher</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTechcon.h">
+      <Filter>Teacher</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherManagement.h">
+      <Filter>Teacher</Filter>
+    </ClInclude>
+    <ClInclude Include="AddStaff.h">
+      <Filter>Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="AddStaffcon.h">
+      <Filter>Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="StaffManagement.h">
+      <Filter>Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpsetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentReciept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStudent.h">
+      <Filter>Multi User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTeacher.h">
+      <Filter>Multi User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStaff.h">
+      <Filter>Multi User</Filter>
+    </ClInclude>
+    <ClInclude Include="StuProfile.h">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSetting.h">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordSet.h">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="StuSchool.h">
+      <Filter>Multi User\StudentAccount</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="school.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\doubl\Downloads\SBS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

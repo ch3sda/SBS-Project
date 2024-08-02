@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "school", "school\school.vcxproj", "{DC747802-F751-468E-9945-30E8D3B40D85}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SchoolSetup", "SchoolSetup\SchoolSetup.vdproj", "{EB180FE0-FD19-4985-807B-994F34B7BF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Debug|x64.ActiveCfg = Debug|x64
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Debug|x64.Build.0 = Debug|x64
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Debug|x86.Build.0 = Debug|Win32
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Release|x64.ActiveCfg = Release|x64
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Release|x64.Build.0 = Release|x64
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Release|x86.ActiveCfg = Release|Win32
+		{DC747802-F751-468E-9945-30E8D3B40D85}.Release|x86.Build.0 = Release|Win32
+		{EB180FE0-FD19-4985-807B-994F34B7BF2E}.Debug|x64.ActiveCfg = Debug
+		{EB180FE0-FD19-4985-807B-994F34B7BF2E}.Debug|x86.ActiveCfg = Debug
+		{EB180FE0-FD19-4985-807B-994F34B7BF2E}.Release|x64.ActiveCfg = Release
+		{EB180FE0-FD19-4985-807B-994F34B7BF2E}.Release|x64.Build.0 = Release
+		{EB180FE0-FD19-4985-807B-994F34B7BF2E}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84938740-5A6C-4D59-94E9-4AABED982DDC}
+	EndGlobalSection
+EndGlobal
